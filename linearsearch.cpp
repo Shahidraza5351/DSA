@@ -12,7 +12,13 @@ int linear_search(int a[],int size,int key)
 }
 int main ()
 {
-    int a[10]={2,5,3,8,12,54,65,48,32,9};
+    int n;
+    cout<<"enter the number of elements";
+    cin>>n;
+    int a[n];
+    cout<<"enter the element of the array";
+    for(int i=0;i<n;i++)
+    cin>>a[i];
     int key;
     cout<<"enter the element to be search";
     cin>>key;
